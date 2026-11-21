@@ -96,7 +96,7 @@ export default function Navbar() {
     <header
       className={`fixed inset-x-0 top-0 z-50 transition-[background-color,box-shadow,backdrop-filter] duration-500 ease-soft ${
         light
-          ? "bg-ivory/90 shadow-[0_1px_0_rgb(42_33_26/0.06)] backdrop-blur-lg"
+          ? "bg-ivory/95 shadow-[0_1px_0_rgb(42_33_26/0.06)] backdrop-blur-lg"
           : "bg-transparent"
       }`}
     >
