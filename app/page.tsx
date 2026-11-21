@@ -1,5 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
+import Story from "@/components/Story";
+import SignatureDishes from "@/components/SignatureDishes";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -8,8 +10,8 @@ export default function Home() {
       <Navbar />
       <main id="main">
         <Hero />
-        {/* Temporary space until the middle sections are built */}
-        <div className="h-[150vh]" />
+        <Story />
+        <SignatureDishes />
       </main>
       <Footer />
     </>

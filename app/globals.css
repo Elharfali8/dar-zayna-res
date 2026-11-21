@@ -8,6 +8,8 @@
 @theme {
   --color-gold: #c98a2e;
   --color-gold-light: #e6b566;
+  /* Gold for TEXT on light backgrounds: #c98a2e is only 2.8:1 on ivory, this is 5.2:1 */
+  --color-gold-deep: #8f5e17;
   --color-champagne: #efd9b4;
   --color-zellige: #12332f;
   --color-ivory: #fbf8f3;
