@@ -79,12 +79,8 @@ export default function Footer() {
             </h2>
             <dl className="mt-4 space-y-3 text-ivory/75">
               <div>
-                <dt className="text-sm text-ivory/50">Lunch, daily</dt>
-                <dd>12:00 – 15:00</dd>
-              </div>
-              <div>
-                <dt className="text-sm text-ivory/50">Dinner, daily</dt>
-                <dd>19:00 – 23:30</dd>
+                <dt className="text-sm text-ivory/65">Monday to Sunday</dt>
+                <dd>12:00 – 23:00</dd>
               </div>
             </dl>
           </div>
@@ -114,7 +110,7 @@ export default function Footer() {
           <StarDivider />
         </div>
 
-        <p className="mt-6 text-center text-sm text-ivory/50">
+        <p className="mt-6 text-center text-sm text-ivory/60">
           © <CurrentYear /> Dar Zayna Restaurant · Marrakech
         </p>
       </div>

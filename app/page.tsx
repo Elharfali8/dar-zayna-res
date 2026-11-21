@@ -4,6 +4,8 @@ import Story from "@/components/Story";
 import SignatureDishes from "@/components/SignatureDishes";
 import QrMenu from "@/components/QrMenu";
 import Gallery from "@/components/Gallery";
+import Reviews from "@/components/Reviews";
+import Visit from "@/components/Visit";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -16,6 +18,8 @@ export default function Home() {
         <SignatureDishes />
         <QrMenu />
         <Gallery />
+        <Reviews />
+        <Visit />
       </main>
       <Footer />
     </>
